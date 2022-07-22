@@ -23,6 +23,8 @@ const TextArea = styled.textarea`
   background-color: #DCDCDC;
   font-size: 1rem;
   border-radius: 0.5rem;
+  border: none;
+  outline: none;
 `;
 
 Form.Input = Input;

@@ -5,7 +5,7 @@ import { firstNameError, emailError, telError, notesError } from './errorConfig'
 import Form from './components/Form';
 import Label from './components/Label';
 import ValidateAlert from './components/ValidateAlert';
-import Button from '../../components/Button';
+import Button from '../../../components/Button';
 
 
 const Input = styled.input`

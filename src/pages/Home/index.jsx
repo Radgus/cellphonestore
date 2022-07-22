@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import macropay from '../../resource/images/macropay.jpg';
-import FormSection from "../FormSection";
+import FormSection from "./FormSection";
+import Galery from "./Galery/inde";
+import Search from '../../components/Search';
 
 
 const Section = styled.section`
@@ -25,13 +27,17 @@ const Img = styled.img`
   object-fit: cover;
 `;
 
+
+
 const Home = () => {
 
   return (
     <>
+      <Search />
       <Section id="Products">
         <h3>Celulares</h3>
         <br />
+        <Galery/>
       </Section>
 
       <Section id='About'>

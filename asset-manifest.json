@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cellphonestore/static/css/main.77ec3c58.css",
+    "main.js": "/cellphonestore/static/js/main.72d755e3.js",
+    "static/js/787.e219b93f.chunk.js": "/cellphonestore/static/js/787.e219b93f.chunk.js",
+    "static/media/macropay.jpg": "/cellphonestore/static/media/macropay.1a659df6bffb8a5a71af.jpg",
+    "static/media/search-icon.png": "/cellphonestore/static/media/search-icon.07938981b007dd41d49b.png",
+    "static/media/instagram.png": "/cellphonestore/static/media/instagram.08546dfb3ae2748cbd46.png",
+    "index.html": "/cellphonestore/index.html",
+    "main.77ec3c58.css.map": "/cellphonestore/static/css/main.77ec3c58.css.map",
+    "main.72d755e3.js.map": "/cellphonestore/static/js/main.72d755e3.js.map",
+    "787.e219b93f.chunk.js.map": "/cellphonestore/static/js/787.e219b93f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77ec3c58.css",
+    "static/js/main.72d755e3.js"
+  ]
+}

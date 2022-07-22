@@ -18,6 +18,10 @@ const Btn = styled.button`
   border: none;
   border-radius: 0.5rem;
   width: 10rem;
+  cursor: pointer;
+  :hover {
+    color: ${colors.fourth_text};
+  }
 `;
 
 const Button = ({children, ...props}) => 

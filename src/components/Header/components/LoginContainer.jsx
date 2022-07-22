@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import colors from '../../../resource/colors';
 import profileIcon from '../../../resource/images/profile-icon.png';
 import CircularDiv from './CircularDiv';
@@ -48,7 +49,9 @@ const LoginContainer = () => {
               ? <>
               <p>Luis Domínguez</p>
               <br />
-              <H4>Cerrar sesión</H4>
+              <Link to="/login">
+                <H4 onClick={()=>setShowLogin(!showLogin)}>Cerrar sesión</H4>
+              </Link>
               </>
               : <H4>Iniciar sesión</H4>
             }

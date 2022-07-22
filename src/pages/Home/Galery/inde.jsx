@@ -8,14 +8,20 @@ import Popup from '../Popup';
 const Container = styled.div`
   padding: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   column-gap: 1rem;
   row-gap: 1rem;
   justify-items: center;
+  @media (min-width: 300px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 700px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `;
 
 const Card = styled.div`
-  min-width: 14.5rem;
+  min-width: 12.5rem;
   max-width: 25rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 1rem 2rem;
@@ -24,6 +30,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: ${colors.secondary_bg};
   :hover {
     box-shadow: 3px 3px 10px rgb(0 28 73 / 1); 
   }
@@ -85,7 +92,7 @@ const Galery = ({...props}) => {
               <h4>${product.precio} </h4>
               <Items>
                 <button>+</button>
-                <input type="num" />
+                <input type="num" value='0'/>
                 <button>-</button>
               </Items>
             </Card>
@@ -106,7 +113,7 @@ const Galery = ({...props}) => {
           <h4>${productSelected.precio} </h4>
           <Items>
             <button>+</button>
-            <input type="num" />
+            <input type="num" value='0'/>
             <button>-</button>
           </Items>
         </Card>

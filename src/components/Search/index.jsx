@@ -5,7 +5,7 @@ import searchIcon from '../../resource/images/search-icon.png';
 
 
 const Container = styled.div`
-  height: 7rem;
+  min-height: 7rem;
   background-color: ${colors.fourth_bg};
   display: flex;
   justify-content: center;

@@ -37,24 +37,32 @@ const Footer = () => {
   return (
     <Container>
       <Column>
-        <Row>
-          <img src={facebook} alt="facebook logo" />
-          <p>Facebook</p>
-        </Row>
+        <a href='https://www.facebook.com/Macropay-104888348563048'>
+          <Row>
+            <img src={facebook} alt="facebook logo" />
+            <p>Facebook</p>
+          </Row>
+        </a>
+        <a href='https://www.instagram.com/macropayoficial_mx/?hl=es'>
         <Row>
           <img src={instagram} alt="facebook logo" />
           <p>Instagram</p>
         </Row>
+        </a>
+        <a href='https://twitter.com/MacropayOficial'>
         <Row>
           <img src={twitter} alt="facebook logo" />
           <p>Twitter</p>
         </Row>
+        </a>
       </Column>
       <Column>
-        <Row>
-          <img src={maps} alt="facebook logo" />
-          <p>Location</p>
-        </Row>
+        <a href="https://goo.gl/maps/NDT5Pb9B7zKAC6Us5">
+          <Row>
+            <img src={maps} alt="facebook logo" />
+            <p>Location</p>
+          </Row>
+        </a>
         <br />
         <div>
           <h3>Address</h3> 

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProductContext from './state/productContext';
 import Layout from './components/Layout';
 import Home from './pages/Home';
+import Login from './pages/Login';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Layout>
           <Routes>
             <Route exac path='/' element={<Home/>} />
+            <Route exac path='/login' element={<Login/>} />
           </Routes>
       </Layout>
     </BrowserRouter>
